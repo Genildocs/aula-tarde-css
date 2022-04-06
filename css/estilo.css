@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(202, 147, 147)
+}
+
+
+.cabecalho{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 250px;
+    height: 500px;
+    background-color:rgb(57, 61, 61)
+}
+label{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: verdana, arial, helvetica;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column
+}
+
+.dados{
+    padding: 8px 20px;
+    border-radius: 5px;
+    display: flex;
+    margin: 7px auto;
+    border: 1px solid rgb(255, 254, 254);
+    box-sizing: border-box;
+    font-size: 15px
+}
+#button {
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 0 auto;
+    color: white;
+    background-color: rgb(2, 2, 2);
+    display: block;
+    font-family: verdana, arial, helvetica;
+}
+#button:hover{
+    background-color: orange;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: verdana, arial, helvetica;
+}
